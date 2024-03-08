@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(routesModel);
 
-const PORT = 3000;
+const PORT = 3302;
 
 app.listen(PORT, () => {
     console.log(`Exencutando projeto na porta ${PORT}`);
